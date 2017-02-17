@@ -1,11 +1,11 @@
 // Language syntax highlighting
 
-.comment {
+.syntax--comment {
   color: @px-comment;
   font-style: italic;
 }
 
-.entity {
+.syntax--entity {
 
   &.name.type {
     color: @px-violet;
@@ -16,7 +16,7 @@
   }
 }
 
-.keyword {
+.syntax--keyword {
   color: @px-blue;
 
   &.control {
@@ -36,7 +36,7 @@
   }
 }
 
-.storage {
+.syntax--storage {
   color: @px-blue;
 
   &.type {
@@ -54,10 +54,10 @@
   }
 }
 
-.constant {
+.syntax--constant{
   color: @px-violet;
 
-  &.variable {
+  &.syntax--variable {
     color: @px-violet;
   }
 
@@ -78,7 +78,7 @@
   }
 }
 
-.variable {
+.syntax--variable {
   color: @px-blue;
 
   &.interpolation {
@@ -90,19 +90,19 @@
   }
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
   background-color: @px-blue;
   color: @syntax-background-color;
 }
 
-.string {
+.syntax--string {
   color: @px-green;
 
 
   &.regexp {
     color: @px-blue;
 
-    .source.ruby.embedded {
+    .syntax--source.syntax--ruby.syntax--embedded {
       color: @px-violet;
     }
   }
@@ -112,9 +112,9 @@
   }
 }
 
-.punctuation {
+.syntax--punctuation{
   &.definition {
-    &.comment {
+    &.syntax--comment {
       color: @px-comment;
     }
 
@@ -156,7 +156,7 @@
   }
 }
 
-.support {
+.syntax--support {
   &.class {
     color: @px-violet;
   }
@@ -170,7 +170,7 @@
   }
 }
 
-.entity {
+.syntax--entity {
   &.name.function {
     color: @px-violet;
   }
@@ -197,7 +197,7 @@
   }
 }
 
-.meta {
+.syntax--meta {
   &.class {
     color: @px-violet;
 
@@ -212,7 +212,7 @@
   }
 
   &.definition {
-    &.variable {
+    &.syntax--variable {
       color: @px-blue;
     }
   }
@@ -239,13 +239,13 @@
   }
 }
 
-.none {
+.syntax--none {
   color: @px-text;
 }
 
 // Languages -------------------------------------------------
 
-.markup {
+.syntax--markup {
   &.bold {
     color: @px-violet;
     font-weight: bold;
@@ -264,7 +264,7 @@
     font-style: italic;
   }
 
-  &.heading .punctuation.definition.heading {
+  &.heading .syntax--punctuation.syntax--definition.syntax--heading {
     color: @px-violet;
   }
 

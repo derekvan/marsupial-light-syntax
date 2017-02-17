@@ -1,5 +1,5 @@
-.source.css {
-    .entity {
+.syntax--source.syntax--css {
+    .syntax--entity {
       &.other {
         &.attribute-name {
           color: @px-blue;
@@ -9,7 +9,7 @@
         }
       }
     }
-    .support {
+    .syntax--support {
       &.function {
         color: @px-orange;
         &.builtin {
@@ -19,22 +19,22 @@
       &.type {
         color: @px-violet;
       }
-      &.constant {
+      &.syntax--constant{
         color: @px-green;
       }
       &.class,
-      &.variable,
+      &.syntax--variable,
       &.other.module {
         color: @px-orange;
       }
     }
-    .variable {
+    .syntax--variable {
       &.parameter,
       &.other {
         color: @px-magenta;
       }
     }
-    .constant {
+    .syntax--constant{
       &.language,
       &.character,
       &.numeric,
