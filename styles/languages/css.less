@@ -1,44 +1,44 @@
 .syntax--source.syntax--css {
     .syntax--entity {
-      &.other {
-        &.attribute-name {
+      &.syntax--other {
+        &.syntax--attribute-name {
           color: @px-blue;
         }
-        &.inherited-class {
+        &.syntax--inherited-class {
           color: @px-green;
         }
       }
     }
     .syntax--support {
-      &.function {
+      &.syntax--function {
         color: @px-orange;
-        &.builtin {
+        &.syntax--builtin {
           color: @px-violet;
         }
       }
-      &.type {
+      &.syntax--type {
         color: @px-violet;
       }
       &.syntax--constant{
         color: @px-green;
       }
-      &.class,
+      &.syntax--class,
       &.syntax--variable,
-      &.other.module {
+      &.syntax--other.syntax--module {
         color: @px-orange;
       }
     }
     .syntax--variable {
-      &.parameter,
-      &.other {
+      &.syntax--parameter,
+      &.syntax--other {
         color: @px-magenta;
       }
     }
     .syntax--constant{
-      &.language,
-      &.character,
-      &.numeric,
-      &.other {
+      &.syntax--language,
+      &.syntax--character,
+      &.syntax--numeric,
+      &.syntax--other {
         color: @px-orange;
       }
     }
