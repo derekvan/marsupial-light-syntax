@@ -2,15 +2,11 @@
   "name": "marsupial-light-syntax",
   "theme": "syntax",
   "version": "1.3.0",
-  "description": "Marsupial Atom Light Syntax Theme. ( Python, NodeJS, Markdown, PHP, HTML, CSS )",
+  "description": "Marsupial Atom Light Syntax Theme. (Markdown)",
   "keywords": [
     "marsupial",
     "light",
     "syntax",
-    "python",
-    "php",
-    "javascript",
-    "nodejs",
     "markdown"
   ],
   "repository": "https://github.com/derekvan/marsupial-light-syntax",
